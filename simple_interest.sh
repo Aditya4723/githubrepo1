@@ -1,8 +1,8 @@
 #!/bin/bash
 
-p=1000
-r=0.05
-t=2
+p=2000
+r=0.10
+t=4
 
 i=$(echo "scale=2; $p * $r * $t" | bc)
 
