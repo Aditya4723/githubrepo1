@@ -1,9 +1,9 @@
 #!/bin/bash
 
-principal=1000
-rate=0.05
-time=2
+p=1000
+r=0.05
+t=2
 
-interest=$(echo "scale=2; $principal * $rate * $time" | bc)
+i=$(echo "scale=2; $p * $r * $t" | bc)
 
-echo "Simple Interest: $interest"
+echo "Simple Interest: $i"
